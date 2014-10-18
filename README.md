@@ -2,6 +2,9 @@
 
 Built by myself based on the HTML+CSS Tutorials
 
+* Creating Your Academic Website
+  * http://assett.colorado.edu/learn/tutorials/create-your-website/
+
 * CSS references, examples:
   * http://www.w3.org/Style/Examples/011/firstcss.en.html
   * http://www.cssnewbie.com/example/horizontal-menu
