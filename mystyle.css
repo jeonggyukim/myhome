@@ -1,35 +1,89 @@
+html {
+    width: 100%;
+    height: 100%;
+    display:table;
+}
+
 body {
-    padding-left: 11em;
     font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: larger;
     color: black;
     background-color: #E6E6E6
+    display: table-cell;
+    text-align:justify; 
+    vertical-align: middle;
 }
-ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    text-align: right;
-    width: 9em
-}
+
 h1, h2, h3 {
-    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
-ul.navbar li {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
-ul.navbar a {
-    text-decoration: none }
-a:link {
-    color: blue}
-a:visited {
-    color: purple
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular,
+    sans-serif; 
 }
+
 address {
     margin-top: 5em;
     padding-top: 1em;
-    border-top: thin dotted
+    border-top: thin solid;
+    font-size: 85%;
+    text-align: center;
 }
+
+#wrap {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#content {
+    padding: 0 20px 20px; }
+
+#nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+#nav li {
+    display: inline-block;
+    /* float: left; */
+}
+#nav li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    border-right: 1px solid #ccc;
+}
+#nav li a:hover {
+    color: #c00;
+    background-color: #fff;
+}
+
+
+/* /\* Another navbar *\/ */
+/* ul.navbar { */
+/*     list-style-type: none; */
+/*     padding: 0; */
+/*     margin: 0; */
+/*     position: absolute; */
+/*     top: 2em; */
+/*     left: 1em; */
+/*     text-align: right; */
+/*     width: 9em; */
+/* } */
+/* ul.navbar li { */
+/*     background: white; */
+/*     margin: 0.5em 0; */
+/*     padding: 0.3em; */
+/*     border-right: 1em solid black; */
+/* } */
+/* ul.navbar a { */
+/*     text-decoration: none; */
+/* } */
+/* a:link { */
+/*     color: blue; */
+/* } */
+/* a:visited { */
+/*     color: purple; */
+/* } */
